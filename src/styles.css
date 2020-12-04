@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+.button {
+    @apply flex justify-center px-4 py-2 tracking-wider text-center text-gray-800 uppercase bg-yellow-200 rounded-md hover:bg-white;
+}
+
+@tailwind utilities;
