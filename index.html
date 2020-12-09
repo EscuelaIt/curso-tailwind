@@ -23,6 +23,84 @@
         <a href="#" class="hover:text-white button hover:bg-yellow-500">Guías populares</a>
       </div>
     </section>
+
+    <section class="py-8 bg-gray-600">
+      <p class="text-xl text-center text-white">
+        ¿Dónde quieres ir?
+      </p>
+      <div class="flex items-center px-8 mt-5 mb-2 lg:px-16 xl:px-32">
+        <input type="text"
+          class="block w-full bg-gray-200 border-0 rounded-md focus:ring-blue-200 focus:bg-white focus:ring-4"
+          placeholder="Escribe un destino">
+        <span class="ml-4">
+          <svg class="inline-block w-8 h-8 text-yellow-400 fill-current" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20">
+            <path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+          </svg>
+        </span>
+      </div>
+    </section>
+
+    <section class="p-4 bg-white">
+
+      <article class="w-full bg-yellow-100 rounded-md shadow-md">
+        <img src="./images/destinos/18529.jpg" alt="Óbidos"
+          class="object-cover object-center w-full rounded-md rounded-b-none h-52">
+        <div class="p-4">
+          <h3 class="mb-3 text-2xl text-yellow-700">Guía de Óvidos</h3>
+          <p class="mb-3 text-lg">Óvidos es una ciudad de algún sitio de interés. Visita con nosotros esta bella urbe.</p>
+          <div class="pt-4 pb-2 space-x-2 border-t-2 border-gray-300">
+            <a href="#"
+              class="hover:border-yellow-700 hover:bg-green-800 focus:text-yellow-200 focus:outline-none focus:bg-green-700 focus:ring-4 focus:ring-blue-500 px-3 pt-2 pb-1.5 text-white bg-green-500 border-b-4 border-green-800 rounded active:bg-red-500">Viajar</a>
+            <a href="#"
+              class="hover:border-yellow-700 hover:bg-green-800 px-3 pt-2 pb-1.5 text-white bg-green-500 border-b-4 border-green-800 focus:outline-none focus:bg-green-700 focus:ring-4 focus:ring-blue-500 rounded active:bg-red-500">Fechas</a>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <section class="p-6 bg-blue-100">
+
+      <h2 class="text-2xl text-green-700">Contacto</h2>
+
+      <form action="#">
+        <div class="mb-4">
+          <label class="block mb-2 font-light" for="name">Nombre:</label>
+          <input class="form-input" type="text" name="name" id="name" placeholder="Escribe tu nombre...">
+        </div>
+        <div class="mb-4">
+          <label class="block mb-2 font-light" for="direction">Dirección:</label>
+          <input class="block w-full mt-1 bg-gray-100 border-transparent rounded-md focus:border-red-500 focus:bg-white" type="text" name="direction" id="direction"
+            placeholder="Escribe tu nombre...">
+        </div>
+        <div class="mb-4">
+          <label class="block mb-2 font-light" for="city">Dirección:</label>
+          <input class="w-full" type="text" name="city" id="city"
+            placeholder="Escribe tu nombre...">
+        </div>
+        <div class="mb-4">
+          <label class="block mb-2 font-light" for="date">Fecha de llegada:</label>
+          <input class="w-full" type="date" name="date" id="date" placeholder="Escribe tu nombre...">
+        </div>
+        <div class="mb-4">
+          <label class="block mb-2 font-light" for="date">Número de plazas de adultos:</label>
+          <select name="personas" id="personas" class="w-full">
+            <option value="1">1 adulto</option>
+            <option value="2">2 adultos</option>
+            <option value="3">3 adultos</option>
+          </select>
+        </div>
+        <div class="flex items-center mb-4">
+          <input type="checkbox" name="transfer" id="transfer" class="w-6 h-6 rounded"> <label class="ml-3 font-light" for="date">Reservar transfer:</label>
+        </div>
+        <div class="mb-4">
+          <label class="block mb-2 font-light" for="doc">Documentación:</label>
+          <input class="border-gray-800 " type="file" name="doc" id="doc" placeholder="Escribe tu nombre...">
+        </div>
+      </form>
+
+    </section>
   </div>
 </body>
 </html>

@@ -1,8 +1,17 @@
 @tailwind base;
+
+h1, h2, h3 {
+    font-weight: bold;
+    @apply mb-6;
+}
+
 @tailwind components;
 
 .button {
-    @apply flex justify-center px-4 py-2 tracking-wider text-center text-gray-800 uppercase bg-yellow-200 rounded-md hover:bg-white;
+    @apply flex justify-center px-4 py-2 tracking-wider text-center text-gray-800 uppercase bg-yellow-200 rounded-md ;
+}
+.form-input {
+    @apply w-full p-2 text-blue-700 bg-gray-100 focus:bg-white rounded border-gray-300 focus:border-blue-300;
 }
 
 @tailwind utilities;
