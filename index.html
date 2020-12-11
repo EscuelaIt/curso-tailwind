@@ -8,21 +8,36 @@
 </head>
 <body class="bg-gray-100">
   <div class="container m-auto">
+
+    <!-- 
+      //////////////////////////////////////////////
+      CABECERA 
+      //////////////////////////////////////////////
+    -->
+
     <header class="flex items-center px-3 py-2 text-white bg-gray-800">
       <img class="h-10" src="/images/mundo.png" alt="El mundo">
-      <span class="mt-1 ml-2 text-xl"><b>lindo</b>mundo.com</span>
+      <span class="mt-1 ml-2 text-lg xs:text-xl"><b>lindo</b>mundo.com</span>
       <div class="flex-grow text-right">
         <img class="inline h-8" src="/images/menu.png" alt="Menu">       
       </div>
     </header>
+
+
     <section class="px-10 py-6 text-white bg-green-600 sm:text-center">
-      <h1 class="mb-5 text-4xl font-bold leading-tight">De paso...<br><span class="">por el mundo</span></h1>
+      <h1 class="mb-5 text-4xl font-bold leading-tight md:text-5xl xl:text-6xl">De paso...<br><span class="">por el mundo</span></h1>
       <p class="mb-5 text-xl italic">Descubre nuestras guías y cuentos de viajes de autor</p>
       <div class="flex flex-col sm:flex-row sm:justify-center">
         <a href="#" class="mb-2 bg-blue-200 sm:mb-0 sm:mr-2 button">Países</a>
         <a href="#" class="hover:text-white button hover:bg-yellow-500">Guías populares</a>
       </div>
     </section>
+
+    <!-- 
+      //////////////////////////////////////////////
+      BUSCADOR 
+      //////////////////////////////////////////////
+    -->
 
     <section class="py-8 bg-gray-600">
       <p class="text-xl text-center text-white">
@@ -41,15 +56,23 @@
       </div>
     </section>
 
+    <!-- 
+      //////////////////////////////////////////////
+      CARDS
+      //////////////////////////////////////////////
+    -->
+
     <section class="p-4 bg-white">
 
-      <article class="w-full bg-yellow-100 rounded-md shadow-md">
+      <article class="w-full bg-yellow-100 rounded-md shadow-md sm:flex sm:items-stretch">
         <img src="./images/destinos/18529.jpg" alt="Óbidos"
-          class="object-cover object-center w-full rounded-md rounded-b-none h-52">
-        <div class="p-4">
-          <h3 class="mb-3 text-2xl text-yellow-700">Guía de Óvidos</h3>
-          <p class="mb-3 text-lg">Óvidos es una ciudad de algún sitio de interés. Visita con nosotros esta bella urbe.</p>
-          <div class="pt-4 pb-2 space-x-2 border-t-2 border-gray-300">
+          class="block object-cover object-center w-full rounded-md rounded-b-none lg:w-420 sm:h-64 sm:w-72 sm:rounded-t-none sm:rounded-r-none sm:rounded-l-md">
+        <div class="p-4 lg:flex lg:flex-grow">
+          <div class="lg:flex-grow">
+            <h3 class="mb-3 text-2xl text-yellow-700">Guía de Óvidos</h3>
+            <p class="mb-3 text-lg">Óvidos es una ciudad de algún sitio de interés. Visita con nosotros esta bella urbe.</p>
+          </div>
+          <div class="pt-4 pb-2 space-x-2 border-t-2 border-gray-300 lg:w-56 lg:border-t-0 lg:flex lg:flex-col lg:space-x-0 lg:space-y-2 lg:justify-end">
             <a href="#"
               class="hover:border-yellow-700 hover:bg-green-800 focus:text-yellow-200 focus:outline-none focus:bg-green-700 focus:ring-4 focus:ring-blue-500 px-3 pt-2 pb-1.5 text-white bg-green-500 border-b-4 border-green-800 rounded active:bg-red-500">Viajar</a>
             <a href="#"
@@ -57,8 +80,13 @@
           </div>
         </div>
       </article>
-
     </section>
+
+    <!-- 
+      //////////////////////////////////////////////
+      FORMULARIO 
+      //////////////////////////////////////////////
+    -->
 
     <section class="p-6 bg-blue-100">
 
@@ -100,6 +128,81 @@
         </div>
       </form>
 
+    </section>
+
+    <!-- 
+      //////////////////////////////////////////////
+      DISTRIBUCIÓN DE ITEMS FLEX
+      //////////////////////////////////////////////
+    -->
+
+    <section class="justify-between p-4 bg-white sm:flex sm:flex-wrap">
+      <article class="relative mx-auto my-2 w-72">
+        <img src="./images/destinos/11365.jpg" alt="Camino de santiago"
+          class="object-cover object-center w-full rounded shadow-md">
+        <span
+          class="absolute bottom-0 w-full px-4 py-2 text-lg font-bold text-white bg-blue-700 bg-opacity-75 rounded rounded-t-none md:text-sm">Camino
+          de santiago</span>
+      </article>
+      <article class="relative mx-auto my-2 w-72">
+        <img src="./images/destinos/9774.jpg" alt="Ruta de los vinos"
+          class="object-cover object-center w-full rounded shadow-md">
+        <span
+          class="absolute bottom-0 w-full px-4 py-2 text-lg font-bold text-white bg-yellow-700 bg-opacity-75 rounded rounded-t-none md:text-sm">Ruta
+          de los vinos de la Serra Gaúcha</span>
+      </article>
+      <article class="relative mx-auto my-2 w-72">
+        <img src="./images/destinos/14436.jpg" alt="Santa Catarina, Brasil"
+          class="object-cover object-center w-full rounded shadow-md">
+        <span
+          class="absolute bottom-0 w-full px-4 py-2 text-lg font-bold text-white bg-green-700 bg-opacity-75 rounded rounded-t-none md:text-sm">Guía
+          comarcal de Santa Catarina</span>
+      </article>
+      <article class="relative mx-auto my-2 w-72">
+        <img src="./images/destinos/18207.jpg" alt="Santa Catarina, Brasil"
+          class="object-cover object-center w-full rounded shadow-md">
+        <span
+          class="absolute bottom-0 w-full px-4 py-2 text-lg font-bold text-white bg-purple-700 bg-opacity-75 rounded rounded-t-none md:text-sm">Guía
+          de Río de Janeiro</span>
+      </article>
+    </section>
+
+    
+    <!-- 
+          //////////////////////////////////////////////
+          DISTRIBUCIÓN DE ITEMS GRID
+          //////////////////////////////////////////////
+        -->
+    
+    <section class="p-4 bg-white sm:grid sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
+      <article class="relative">
+        <img src="./images/destinos/11365.jpg" alt="Camino de santiago"
+          class="object-cover object-center w-full rounded shadow-md">
+        <span
+          class="absolute bottom-0 w-full px-4 py-2 text-lg font-bold text-white bg-blue-700 bg-opacity-75 rounded rounded-t-none md:text-sm">Camino
+          de santiago</span>
+      </article>
+      <article class="relative w-full mx-auto">
+        <img src="./images/destinos/9774.jpg" alt="Ruta de los vinos"
+          class="object-cover object-center w-full rounded shadow-md">
+        <span
+          class="absolute bottom-0 w-full px-4 py-2 text-lg font-bold text-white bg-yellow-700 bg-opacity-75 rounded rounded-t-none md:text-sm">Ruta
+          de los vinos de la Serra Gaúcha</span>
+      </article>
+      <article class="relative w-full mx-auto">
+        <img src="./images/destinos/14436.jpg" alt="Santa Catarina, Brasil"
+          class="object-cover object-center w-full rounded shadow-md">
+        <span
+          class="absolute bottom-0 w-full px-4 py-2 text-lg font-bold text-white bg-green-700 bg-opacity-75 rounded rounded-t-none md:text-sm">Guía
+          comarcal de Santa Catarina</span>
+      </article>
+      <article class="relative w-full mx-auto">
+        <img src="./images/destinos/18207.jpg" alt="Santa Catarina, Brasil"
+          class="object-cover object-center w-full rounded shadow-md">
+        <span
+          class="absolute bottom-0 w-full px-4 py-2 text-lg font-bold text-white bg-purple-700 bg-opacity-75 rounded rounded-t-none md:text-sm">Guía
+          de Río de Janeiro</span>
+      </article>
     </section>
   </div>
 </body>

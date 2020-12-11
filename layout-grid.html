@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desarrollar con Tailwind CSS</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-gray-100">
+  <div class="container m-auto">
+    <header class="flex items-stretch h-16 px-3 text-white bg-gray-800">
+      <img class="h-12 mt-2 mb-2" src="/images/mundo.png" alt="El mundo">
+
+      <span class="mt-5 ml-3 text-lg xs:text-xl"><b>lindo</b>mundo.com</span>
+
+      <div class="flex items-stretch justify-end flex-grow">
+        <div class="flex items-center md:hidden">
+          <img class="inline h-8 " src="/images/menu.png" alt="Menu">
+        </div>
+        <ul class="hidden md:items-stretch md:flex md:justify-end">
+          <li class="flex mr-2 items-strech hover:bg-gray-600">
+            <a class="flex items-center p-2" href="#">Paises</a>
+          </li>
+          <li class="flex mr-2 items-strechh hover:bg-gray-600">
+            <a class="flex items-center p-2" href="#">Relatos</a>
+          </li>
+          <li class="flex mr-2 items-strech hover:bg-gray-600">
+            <a class="flex items-center p-2" href="#">Pueblos</a>
+          </li>
+          <li class="flex mr-2 items-strech hover:bg-gray-600">
+            <a class="flex items-center p-2" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="gap-4 bg-white xl:gap-8 md:grid md:grid-cols-main_md lg:grid-cols-main_lg">
+      <nav class="hidden mt-4 lg:block">
+        <section class="w-48 mt-4 mb-4 ml-4 mr-6">
+          <b class="block mb-2 text-xl font-light bg-primary text-secondary">Paises</b>
+          <a href="#" class="block mb-1 text-blue-600">Por continentes</a>
+          <a href="#" class="block mb-1 text-blue-600">Mapa</a>
+          <a href="#" class="block mb-1 text-blue-600">Populares</a>
+        </section>
+        <section class="w-48 mt-4 mb-4 ml-4 mr-6">
+          <b class="block mb-2 text-xl font-light">Relatos</b>
+          <a href="#" class="block mb-1 text-blue-600">Viajes</a>
+          <a href="#" class="block mb-1 text-blue-600">Arte</a>
+        </section>
+      </nav>
+      <main class="px-4 py-4 ">
+        <h1 class="mb-4 text-2xl font-light">Bienvenidos a mi web</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur temporibus qui adipisci, accusantium
+          quo amet iusto quas natus quia inventore hic? Animi placeat explicabo inventore fugit. Similique architecto
+          voluptatem amet.</p>
+        <p>Saepe labore nesciunt doloribus nisi fuga! Unde velit debitis odit quidem voluptas! Vitae excepturi tempore
+          illum dolorum exercitationem, eius soluta sit labore fugiat tenetur eum, quod, praesentium pariatur et maxime.
+        </p>
+        <p>Nemo in tempore unde quod consequuntur voluptas officiis, incidunt recusandae ducimus earum maiores tenetur
+          dicta repellendus quasi dolores, cumque praesentium aliquid. Reprehenderit blanditiis doloribus velit tempore,
+          architecto asperiores laborum perferendis.</p>
+        <p>Consequuntur iure sapiente inventore voluptatibus maxime perferendis officia voluptatum beatae neque,
+          repellat necessitatibus facilis soluta sed iusto officiis vero delectus dignissimos cum amet assumenda animi
+          commodi ex! Reprehenderit, enim atque.</p>
+        <p>Voluptates dicta iure, consequuntur porro recusandae explicabo animi perspiciatis dolore quidem repellendus,
+          obcaecati accusantium, corrupti sunt culpa dolorum officia? Ipsam eligendi officiis ex alias corrupti deleniti
+          dolore qui itaque magnam?</p>
+        <p>Corporis, aperiam nihil id fugit perferendis sunt a voluptas, impedit earum eaque saepe laboriosam quos
+          dolorum, aliquam reiciendis. Fuga, distinctio voluptatibus aliquam cupiditate quae repudiandae natus excepturi
+          totam. Sit, architecto!</p>
+        <p>Voluptas nesciunt labore tempore animi accusamus iure! Reprehenderit accusamus modi, omnis error maiores
+          facilis nobis temporibus, quidem tempora, esse ducimus obcaecati et ab. Placeat, nulla repellat? Tempore
+          delectus magnam deleniti.</p>
+        <p>Blanditiis corrupti reiciendis quos? Praesentium saepe id, non nobis facilis ex? Quo laboriosam ullam autem
+          vero dolores totam cumque voluptates quaerat, perspiciatis rem animi voluptatibus. Nam, atque. Laboriosam,
+          quisquam qui?</p>
+        <p>Vero enim a asperiores ut tempore! Facilis, amet at? Quasi natus cupiditate sed, vero voluptates veritatis,
+          laborum dolore odit, beatae quas nostrum exercitationem asperiores! Dolorum vero sunt a repellendus rem?</p>
+        <p>Quod nihil ipsa distinctio ullam aliquam consequatur vitae neque et cum amet totam enim voluptates pariatur
+          unde accusamus error laudantium quidem, adipisci expedita, nisi architecto delectus. Enim officia beatae
+          totam.</p>
+      </main>
+      <aside class="p-4 bg-white lg:bg-yellow-100">
+        <article class="flex items-center justify-center w-full mb-4 text-white bg-green-600 h-72">Elemento de Aside
+        </article>
+        <article class="flex items-center justify-center w-full text-white bg-blue-600 h-72">Elemento de Aside</article>
+      </aside>
+    </div>
+  </div>
+</body>
+
+</html>
