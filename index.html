@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Desarrollar con Tailwind CSS</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="bg-gray-100">
@@ -17,7 +19,7 @@
 
     <header class="flex items-center px-3 py-2 text-white bg-gray-800">
       <img class="h-10" src="/images/mundo.png" alt="El mundo">
-      <span class="mt-1 ml-2 text-lg xs:text-xl"><b>lindo</b>mundo.com</span>
+      <span class="mt-1 ml-2 font-serif text-lg xs:text-xl"><b>lindo</b>mundo.com</span>
       <div class="flex-grow text-right">
         <img class="inline h-8" src="/images/menu.png" alt="Menu">       
       </div>
@@ -64,12 +66,12 @@
 
     <section class="p-4 bg-white">
 
-      <article class="w-full bg-yellow-100 rounded-md shadow-md sm:flex sm:items-stretch">
+      <article class="w-full bg-yellow-100 shadow-md rounded-small sm:flex sm:items-stretch">
         <img src="./images/destinos/18529.jpg" alt="Óbidos"
           class="block object-cover object-center w-full rounded-md rounded-b-none lg:w-420 sm:h-64 sm:w-72 sm:rounded-t-none sm:rounded-r-none sm:rounded-l-md">
         <div class="p-4 lg:flex lg:flex-grow">
           <div class="lg:flex-grow">
-            <h3 class="mb-3 text-2xl text-yellow-700">Guía de Óvidos</h3>
+            <h3 class="mb-3 text-2xl text-orange-500">Guía de Óvidos</h3>
             <p class="mb-3 text-lg">Óvidos es una ciudad de algún sitio de interés. Visita con nosotros esta bella urbe.</p>
           </div>
           <div class="pt-4 pb-2 space-x-2 border-t-2 border-gray-300 lg:w-56 lg:border-t-0 lg:flex lg:flex-col lg:space-x-0 lg:space-y-2 lg:justify-end">
@@ -203,6 +205,12 @@
           class="absolute bottom-0 w-full px-4 py-2 text-lg font-bold text-white bg-purple-700 bg-opacity-75 rounded rounded-t-none md:text-sm">Guía
           de Río de Janeiro</span>
       </article>
+    </section>
+
+    <section>
+
+      <div class="bg-red-300 ml-420 w-420 h-420">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus architecto cupiditate neque impedit ipsam laudantium eligendi recusandae esse amet! Placeat amet recusandae saepe illo voluptatum sunt nobis velit nisi ratione.</div>
+
     </section>
   </div>
 </body>
